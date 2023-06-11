@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  color: var(--color-dark-blue);
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: min(1300px, 100%);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@font-face {
+  font-family: "Furore";
+  src: url("/Furore.woff2") format("woff2");
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.c1,
+.c2 {
+  font-size: 20px;
+}
+
+.c3,
+.c4 {
+  font-size: 19px;
+}
+
+.c5,
+.c6 {
+  font-size: 18px;
+}
+
+.c7,
+.c8 {
+  font-size: 17px;
+}
+
+.c9,
+.c10 {
+  font-size: 16px;
+}
+
+.c1,
+.c3,
+.c5,
+.c7,
+.c9 {
+  font-weight: 500;
+}
+
+.darkgrey {
+  color: var(--color-dark-grey);
+}
+
+.white {
+  color: #fff;
+}
+
+.blue {
+  color: var(--color-blue);
+  font-family: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.noclick {
+  pointer-events: none;
+}
